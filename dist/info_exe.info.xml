@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\KNJ\Desktop\Electricity Bill Calculator\Electricity Bill Calculator\dist\Electricity_Bill_Calculator.jar</jar>
+  <outfile>C:\Users\KNJ\Desktop\Electricity Bill Calculator\Electricity Bill Calculator\dist\Electricity Bill Calculator.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>true</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\KNJ\Downloads\ceylon-electricity-board-164829.ico</icon>
+  <classPath>
+    <mainClass>Frames.MainFrame</mainClass>
+    <cp>lib/mysql-connector-j-9.0.0.jar</cp>
+    <cp>lib/flatlaf-demo-3.5.2.jar</cp>
+    <cp>lib/flatlaf-intellij-themes-3.2.jar</cp>
+  </classPath>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>true</requires64Bit>
+    <minVersion>1.6</minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+</launch4jConfig>
